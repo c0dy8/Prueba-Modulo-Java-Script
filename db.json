@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@crudtask.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Usuario Demo",
+      "email": "user@crudtask.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "name": "briam",
+      "email": "briam@123",
+      "password": "123456",
+      "role": "user"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "ba43",
+      "title": "Update documentation",
+      "description": "Update documentation",
+      "status": "in progress",
+      "userId": 2,
+      "createdAt": "2026-02-03T00:32:13.459Z"
+    }
+  ]
+}

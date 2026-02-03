@@ -1,0 +1,26 @@
+:root { --sidebar-width: 260px; --bg-main: #f8fafc; }
+body { background-color: var(--bg-main); font-family: 'Inter', sans-serif; }
+        
+    .sidebar { width: var(--sidebar-width); height: 100vh; position: fixed; background: white; border-right: 1px solid #eef2f6; }
+    .main-content { margin-left: var(--sidebar-width); padding: 30px; }
+        
+    .nav-link { color: #64748b; padding: 12px 20px; border-radius: 8px; margin: 4px 15px; text-decoration: none; display: block; }
+    .nav-link.active { background-color: #eff6ff; color: #2563eb; font-weight: 500; }
+
+    .task-table-card { border: none; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.03); background: white; }
+    .table thead th { 
+    background-color: #fcfcfd; 
+    color: #667085; 
+    font-size: 0.75rem; 
+    text-transform: uppercase; 
+    padding: 16px;
+    border-bottom: 1px solid #f2f4f7;
+
+}
+.table tbody td { padding: 16px; border-bottom: 1px solid #f2f4f7; vertical-align: middle; }
+
+.status-pill { padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; font-weight: 500; }
+.status-completed { background-color: #ecfdf3; color: #027a48; }
+.status-pending { background-color: #fff7ed; color: #c2410c; }
+
+.grade-badge { font-weight: 600; color: #101828; }
