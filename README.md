@@ -1,4 +1,4 @@
-# CRUDTASK
+# CRUDZASO
 
 Web app for managing academic tasks with **user** and **admin** roles, using JSON Server as a fake API.
 
